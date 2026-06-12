@@ -47,6 +47,20 @@ Exported query results and connected the dashboard using Google Sheets to contin
 
 ---
 
+## Root Cause Assessment
+
+The issue was not caused by SQL query errors or missing dataset permissions.
+
+Investigation results indicated that:
+
+- BigQuery queries executed successfully.
+- Dataset schema was visible in Looker Studio.
+- Data retrieval failed when visualisations attempted to access dataset records.
+
+The issue is suspected to be related to the interaction between Looker Studio and the BigQuery dataset configuration.
+
+Further investigation is required to determine the exact root cause.
+
 ## Lessons Learned
 
 - Data access issues are not always caused by SQL errors.
