@@ -2,7 +2,7 @@
 
 ## Issue
 
-While analysing procurement approval lead times, the SQL query failed when attempting to calculate the difference between creation_date and approved_date.
+While analysing procurement approval lead times, I was unable to calculate the difference between creation_date and approved_date due to date conversion errors.
 
 Error message:
 
@@ -12,10 +12,10 @@ Failed to parse timestamp value.
 
 ## Environment
 
-* Oracle ERP Procurement Data
-* Google BigQuery
-* SQL
-* Procurement Reporting Analysis
+* Procurement Data (Excel)
+* Google Drive
+* Google Sheets
+* SQL Analysis
 
 ---
 
@@ -23,7 +23,7 @@ Failed to parse timestamp value.
 
 Steps performed:
 
-1. Reviewed the SQL query and timestamp conversion logic.
+1. Reviewed the date conversion logic.
 2. Examined approval_date sample records.
 3. Compared date formats across multiple purchase orders.
 4. Validated source data consistency.
@@ -33,10 +33,7 @@ Steps performed:
 
 ## Findings
 
-* Multiple date formats were stored in the same column.
-* Some records used standard timestamp formats.
-* Other records contained localised date strings.
-* Timestamp conversion functions could not process all records successfully.
+Multiple date formats were stored in the same column.
 
 Examples:
 
@@ -48,38 +45,40 @@ Format B
 
 2026/5/4 下午 06:16:26
 
+The inconsistent formats prevented successful date conversion and lead-time calculations.
+
 ---
 
 ## Root Cause
 
-The approval_date field contained inconsistent date formats generated from different sources or processes.
+The approval_date field contained inconsistent date formats entered or generated through different processes.
 
-The lack of a standardised date format prevented successful timestamp conversion and impacted lead-time calculations.
+The lack of a standard date format caused data quality issues during analysis.
 
 ---
 
 ## Resolution
 
-Identified the affected records and proposed a data standardisation approach before performing lead-time analysis.
+Identified the affected records and proposed data standardisation before performing lead-time calculations.
 
-Analysis activities were temporarily paused until data quality issues could be addressed.
+Data cleansing should be completed before future reporting activities.
 
 ---
 
 ## Lessons Learned
 
-* Data quality issues can directly impact reporting accuracy.
-* SQL errors are not always caused by query logic.
-* Source data validation should be performed before analysis.
-* Root cause investigation is essential for reliable reporting.
+* Data quality validation should be performed before analysis.
+* Date format consistency is critical for reporting accuracy.
+* Investigation should begin with source data validation rather than assuming SQL logic is incorrect.
+* Root cause analysis helps prevent recurring reporting issues.
 
 ---
 
 ## Skills Demonstrated
 
-* SQL Troubleshooting
-* Data Validation
+* Data Quality Investigation
 * Root Cause Analysis
-* ERP Support
-* Reporting Investigation
+* Reporting Analysis
+* Data Validation
 * Problem Solving
+* Documentation
