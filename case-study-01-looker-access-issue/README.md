@@ -66,3 +66,13 @@ Further investigation is required to determine the exact root cause.
 - Data access issues are not always caused by SQL errors.
 - System integration troubleshooting requires validation across multiple layers.
 - Temporary workarounds can help maintain project progress while root causes are investigated.
+
+---
+## Skills Demonstrated
+
+- Application Support
+- System Integration
+- Troubleshooting
+- Root Cause Analysis
+- Reporting Support
+- Problem Solving
