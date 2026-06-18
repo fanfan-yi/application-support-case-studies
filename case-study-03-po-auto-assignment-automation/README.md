@@ -10,7 +10,7 @@ Category-based requisitions required manual assignment by supervisors, creating 
 
 * Procurement Data (ERP)
 * Oracle ERP R12
-* TOAD
+* TOAD for Oracle
 * Stored Procedure
 * PL/SQL
 
@@ -39,6 +39,7 @@ On a sample day (2026/06/17):
 * Manually assigned: 6
 
 Approximately 86.7% of category-based requisitions could be assigned automatically through predefined business rules.
+
 The findings indicated a significant opportunity to reduce manual effort through process automation.
 
 Manual assignment was mainly required for equipment purchases, maintenance requests and special procurement cases without designated buyers.
@@ -75,7 +76,7 @@ Special cases continued to be reviewed manually when required.
 * Reduced training requirements for new supervisors.
 * Standardised buyer assignment rules across procurement processes.
 
-Estimated annual cost saving: Approximately AUD 6,000–9,000, based on an estimated 60 minutes of supervisor effort saved per working day.
+Estimated annual cost saving: Approximately AUD 6,000–9,000, assuming an average of 60 minutes of supervisor effort saved per working day.
 The solution also improved procurement cycle responsiveness by reducing waiting time between requisition submission and buyer assignment.
 
 ---
