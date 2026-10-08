@@ -153,7 +153,7 @@ Manual configuration was estimated at approximately two minutes per purchasing c
 Automation execution time was not formally measured, so no percentage time-saving claim is made.
 The technical automation implementation is maintained separately in my Python automation portfolio to keep this case study focused on ERP implementation and Application Support responsibilities.
 
-5. Cutover and Go-Live Support
+### 5. Cutover and Go-Live Support
 I supported procurement cutover by preparing and validating opening transaction categories such as:
 - requisitioned but not yet ordered
 - ordered but not yet delivered
@@ -161,7 +161,8 @@ I supported procurement cutover by preparing and validating opening transaction 
 - inspected or accepted but not yet invoiced
 The Procurement environment went live on 1 May 2025.
 I supported the transition from implementation into production and continued handling procurement and approval-related issues after go-live.
-Production Support
+
+## Production Support
 Post-go-live support included troubleshooting issues across:
 - user responsibilities and access
 - requisition and purchasing forms
@@ -182,6 +183,7 @@ My support approach typically involved:
 5. asking users to retest where applicable
 6. documenting or explaining the correct operational process when the issue was process-related
 This work continued after the initial implementation and remains part of ongoing production support.
+
 ## Project Scale
 
 | Area | Scale |
@@ -197,7 +199,8 @@ This work continued after the initial implementation and remains part of ongoing
 
 
 The Procurement system supports purchasing operations for the new manufacturing entity, while purchase requisitions are used across the wider plant rather than only by the Procurement team.
-Technology
+
+## Technology
 - Oracle E-Business Suite R12.2
 - Oracle Procurement / Purchasing
 - Oracle Forms
@@ -212,12 +215,14 @@ Technology
 - openpyxl
 - PyAutoGUI
 - Excel-based configuration input
-Result
+  
+## Result
 The Oracle EBS Procurement environment successfully entered production on 1 May 2025.
 The rollout established the Procurement environment, required master data, Forms and Reports, and ERP-side approval integration needed to support the new manufacturing entity.
 The reporting scope was deliberately phased around the go-live schedule, with seven priority reports available before go-live and the remaining planned reports completed afterwards.
 Following go-live, I continued to own Procurement and approval-related application support, including incident investigation, configuration issues, report changes, process troubleshooting, and new user requirements.
-Skills Demonstrated
+
+## Skills Demonstrated
 - Oracle EBS Procurement implementation
 - ERP Application Support
 - Production support
@@ -232,6 +237,7 @@ Skills Demonstrated
 - Process troubleshooting
 - Python automation
 - Stakeholder communication
-Confidentiality
+  
+## Confidentiality
 This case study is based on professional ERP implementation experience.
 Company names, internal URLs, credentials, system identifiers, production data, and confidential implementation details have been removed or generalised.
