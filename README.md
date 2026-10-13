@@ -1,6 +1,6 @@
 # Application Support Case Studies
 
-This repository contains real-world troubleshooting, incident investigation, and root cause analysis case studies based on ERP, reporting, and business system support scenarios.
+This repository contains real-world case studies covering ERP implementation, application support, incident investigation, root cause analysis, system integration, go-live support, and production support.
 
 Topics include:
 
@@ -12,3 +12,29 @@ Topics include:
 - Business Systems
 
 The purpose of this repository is to demonstrate practical problem-solving and support skills relevant to ERP Support Analyst, Application Support Analyst, and Business Systems Analyst roles.
+
+## Case Studies
+
+### Case Study 01 — Looker Access Issue
+
+Troubleshooting and investigation of a reporting-platform access issue.
+
+[View Case Study](./case-study-01-looker-access-issue/)
+
+### Case Study 02 — Data Quality Investigation
+
+Investigation of a business-data quality issue using a structured application-support approach.
+
+[View Case Study](./case-study-02-data-quality-investigation/)
+
+### Case Study 03 — PO Auto-Assignment Automation
+
+Oracle ERP procurement automation case study covering business-process improvement, PL/SQL-based automation, exception handling, and operational impact.
+
+[View Case Study](./case-study-03-po-auto-assignment-automation/)
+
+### Case Study 04 — Oracle EBS Procurement Rollout
+
+End-to-end Oracle EBS Procurement rollout covering configuration, Forms and Reports localisation, Multi-Org integration, UAT, cutover, go-live, production support, and Python/Selenium configuration automation.
+
+[View Case Study](./case-study-04-oracle-ebs-procurement-rollout/)
