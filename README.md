@@ -38,3 +38,17 @@ Oracle ERP procurement automation case study covering business-process improveme
 End-to-end Oracle EBS Procurement rollout covering configuration, Forms and Reports localisation, Multi-Org integration, UAT, cutover, go-live, production support, and Python/Selenium configuration automation.
 
 [View Case Study](./case-study-04-oracle-ebs-procurement-rollout/)
+
+### Case Study 05 — Oracle EBS PO Auto-Approval Business Controls
+
+Enhanced an existing Oracle EBS PO auto-approval process by translating Procurement requirements into three system-enforced business controls:
+
+- Urgent requisition review
+- Purchasing category amount thresholds
+- Potential duplicate purchase detection within five days
+
+The enhancement used PL/SQL and Oracle EBS purchasing data relationships to determine whether an Incomplete Standard PO could continue through the existing auto-approval process or required buyer review.
+
+**Key skills:** Oracle EBS Procurement, PL/SQL, business requirement analysis, approval controls, Oracle data-model analysis, testing, production deployment.
+
+[View Case Study 05](./case-study-05-oracle-ebs-po-auto-approval-controls/)
