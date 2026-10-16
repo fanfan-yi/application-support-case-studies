@@ -51,4 +51,4 @@ The enhancement used PL/SQL and Oracle EBS purchasing data relationships to dete
 
 **Key skills:** Oracle EBS Procurement, PL/SQL, business requirement analysis, approval controls, Oracle data-model analysis, testing, production deployment.
 
-[View Case Study 05](./case-study-05-oracle-ebs-po-auto-approval-controls/)
+[View Case Study](./case-study-05-oracle-ebs-po-auto-approval-controls/)
