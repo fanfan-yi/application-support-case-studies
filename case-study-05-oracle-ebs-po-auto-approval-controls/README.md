@@ -155,7 +155,7 @@ Same ITEM_ID
         +
 Same CODE_COMBINATION_ID
         +
-Other PO created within the previous 5 days
+Other PO line created within the previous 5 days
 ```
 
 The Oracle Accounting Flexfield represented by `CODE_COMBINATION_ID` includes cost centre / department information.
